@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <include layout="@layout/custom_tool_bar" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/fragment_option_detail_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_8dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="@dimen/size_22sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/fragment_option_detail_ll_basic_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_8dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_basic_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/basic_info_text"
+                android:textSize="@dimen/size_22sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_basic_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_marginRight="@dimen/size_8dp"
+                android:layout_marginBottom="@dimen/size_8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_16sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/fragment_option_detail_ll_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_8dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_address_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/address_text"
+                android:textSize="@dimen/size_22sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_marginRight="@dimen/size_8dp"
+                android:layout_marginBottom="@dimen/size_8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="During the reign of Krishnaraja Wodeyar-III (1811-31), the State consisted of six Faujdaris and the present Tumakuru district stood included in the Maddagiri i.e., Madhugiri, ,,’Faujdari.: In 1834, these were reconstituted into four divisions and Tumakuru became the headquarters of Chitradurga division which encompassed the areas now included in these two districts."
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_16sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/fragment_option_detail_ll_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_8dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_email_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/email_text"
+                android:textSize="@dimen/size_22sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_marginRight="@dimen/size_8dp"
+                android:layout_marginBottom="@dimen/size_8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_16sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/fragment_option_detail_ll_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_8dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_phone_number_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/phone_number_text"
+                android:textSize="@dimen/size_22sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_marginRight="@dimen/size_8dp"
+                android:layout_marginBottom="@dimen/size_8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_16sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/fragment_option_detail_ll_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_8dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_website_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/website_text"
+                android:textSize="@dimen/size_22sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_option_detail_tv_website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_marginRight="@dimen/size_8dp"
+                android:layout_marginBottom="@dimen/size_8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_16sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

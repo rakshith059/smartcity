@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "494951433522",
+    "firebase_url": "https://smartcity-61d65.firebaseio.com",
+    "project_id": "smartcity-61d65",
+    "storage_bucket": "smartcity-61d65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494951433522:android:9a0d63eebde8271d6a032b",
+        "android_client_info": {
+          "package_name": "com.kit.smartcity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494951433522-eb247cba132aqse2kme48168ahvl4oqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kit.smartcity",
+            "certificate_hash": "7143b410bf0c4862ee4a9436090f0624a445a593"
+          }
+        },
+        {
+          "client_id": "494951433522-eq7169qgko1g0or0ou0q1b3cc4j6asuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3qDsJRocYFgJBR--o1H2WRNHGdxw_g1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494951433522-eq7169qgko1g0or0ou0q1b3cc4j6asuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

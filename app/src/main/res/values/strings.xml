@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SmartCity</string>
+    <string name="google_signin">Google Sign-in</string>
+    <string name="enter_email">Enter email-id</string>
+    <string name="enter_password">Enter password</string>
+    <string name="signin_text">SignIn</string>
+
+    <string name="option_college">College</string>
+    <string name="option_register_office">Register Office</string>
+    <string name="option_police_station">Police Station</string>
+    <string name="option_railway_station">Railway Station</string>
+    <string name="option_bank">Bank</string>
+    <string name="option_post_office">Post Office</string>
+    <string name="option_hospital">Hospital</string>
+    <string name="option_electricity">Electricity</string>
+    <string name="option_fire_station">Fire Station</string>
+    <string name="name_text">Name</string>
+    <string name="basic_info_text">Basic Info: </string>
+    <string name="address_text">Address: </string>
+    <string name="email_text">Email: </string>
+    <string name="phone_number_text">Phone number: </string>
+    <string name="website_text">website: </string>
+</resources>
